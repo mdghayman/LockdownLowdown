@@ -1,6 +1,6 @@
 # LockdownLowdown
 
-1.1. What problem are we solving?
+### What problem are we solving?
 - Understanding the optimal political and financial response to the COVID19 pandemic
   - Dangerous idea of "following the best science".
   - Science is not stationary or one-sided.
@@ -9,7 +9,7 @@
   - Negative effects of lockdowns (some of which are more clear in poor countries, so would thus require extension of the model).
 - Noting that long-term effects of lockdowns will only become apparent in the long-term.
 
-1.2. What niche have we found?
+### What niche have we found?
 - This problem varies widely across location and time.
 - Focus here is the Uniteg Kingdom (UK), from 1 January 2020 to present.
   - Geographical scale of the whole of UK.
@@ -22,7 +22,7 @@
   - Daily data points, which are updated daily;
   - Currently over 32MB, including notes.
   
-1.3. What would we like to analyse?
+### What would we like to analyse?
 - Benefits of lockdown, including:
   - Reduced COVID-19 deaths;
   - Reduced short-term illness due to COVID-19 infections; and
@@ -32,24 +32,24 @@
   - Additional opportunity costs which are often excluded (e.g. suspended cancer screening and treatment); and
   - Societal changes and lifetime impacts (which may be impossible to measure using existing metrics).
   
-2.1. Is this a data analysis or recommendation study?
+### Is this a data analysis or recommendation study?
 - Data analysis (recommendations may result, but decision-making is necessarily a social and political process)
 
-2.2. What will this study deliver?
+### What will this study deliver?
 - Clearer understanding of potential costs of lockdown; and
 - Clearer understanding of opportunity costs of ignoring societal issues other than COVID-19.
 
-2.3. How does this study address the problem?
+### How does this study address the problem?
 - Politicians and practitioners will be better placed for decision-making.
 - Citizens will be better informed.
 - Some drastic changes have been made across the world in 2020, presenting the opportunity to learn from this study's results, and work together going forward with COVID-19 and future crises.
 
-3.1. Is this a machine learning or deep learning study?
+### Is this a machine learning or deep learning study?
 - The initial core model is a machine learning time series analysis.
 - However, deep learning Recurent Neural Networks (RNN) may add greater insight, and these will be applied next.
 - The sentiment analysis on media and social media will experiment with Long Short-Term Memory (LSTM) RNN deep learning analysis.
 
-3.2. Where will the data come from?
+### Where will the data come from?
 - Primary:
   - OxCGRT Covid Policy Tracker
 - Secondary:
@@ -61,7 +61,7 @@
   - UK Government's COVID-19 recovery strategy
   - Full Fact
 
-3.3. How can this study be deployed?
+### How can this study be deployed?
 - Ideally, users can experiment with relationships among variables and time scales:
   - Probably best achieved with a Streamlit app
 - Open source approach could lead to further improvements.
